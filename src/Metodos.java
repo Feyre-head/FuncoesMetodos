@@ -25,10 +25,11 @@ public class Metodos {
 
         System.out.println("== Calculadora ==");
         System.out.println("""
-                1- Soma
+                1- Somar
                 2- Subtração
-                3- Multiplicar
-                4- Dividir
+                3- Multiplicação
+                4- Divisão
+                =================
                 """);
         System.out.println("Informe a opção Desejada:");
         int opcao = sc.nextInt();

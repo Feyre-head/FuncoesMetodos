@@ -23,14 +23,14 @@ public class Metodos {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Informe a opção Desejada");
+        System.out.println("== Calculadora ==");
         System.out.println("""
                 1- Soma
                 2- Subtração
                 3- Multiplicar
                 4- Dividir
-                :
                 """);
+        System.out.println("Informe a opção Desejada:");
         int opcao = sc.nextInt();
 
 
